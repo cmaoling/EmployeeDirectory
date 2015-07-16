@@ -53,7 +53,8 @@ var MemoryStore = function(successCallback, errorCallback) {
             {"id": 12, "firstName": "Stanley", "lastName": "Hudson", "title":"Sales Representative", "managerId": 10, "managerName": "Andy Bernard", "city":"Scranton, PA", "cellPhone":"570-700-6464", "officePhone":"570-787-9393", "email":"shudson@dundermifflin.com", "reports" : 0},
             {"id": 13, "firstName": "Meredith", "lastName": "Palmer", "title":"Supplier Relations", "managerId": 2, "managerName": "Michael Scott", "city":"Scranton, PA", "cellPhone":"570-588-6567", "officePhone":"570-981-6167", "email":"meredith@dundermifflin.com", "reports" : 0},
             {"id": 14, "firstName": "Kelly", "lastName": "Kapoor", "title":"Customer Service Rep.", "managerId": 2, "managerName": "Michael Scott", "city":"Scranton, PA", "cellPhone":"570-123-9654", "officePhone":"570-125-3666", "email":"kelly@dundermifflin.com", "reports" : 0},
-            {"id": 15, "firstName": "Toby", "lastName": "Flenderson", "title":"Human Resources", "managerId": 1, "managerName": "Ryan Howard", "city":"Scranton, PA", "cellPhone":"570-485-8554", "officePhone":"570-699-5577", "email":"toby@dundermifflin.com", "reports" : 0}
+            {"id": 15, "firstName": "Toby", "lastName": "Flenderson", "title":"Human Resources", "managerId": 1, "managerName": "Ryan Howard", "city":"Scranton, PA", "cellPhone":"570-485-8554", "officePhone":"570-699-5577", "email":"toby@dundermifflin.com", "reports" : 0},
+            {"id": 16, "firstName": "Frank", "lastName": "Koeble", "title":"Agile Dude", "managerId": 1, "city":"Stuttgart, BW", "cellPhone":"123-321-0002", "officePhone":"123-321-1023", "email":"agile@dundermifflin.com"}
         ];
 
     callLater(successCallback);
